@@ -1,0 +1,18 @@
+{% block content %} 
+  {% for post in model.posts %}
+    <article>
+            <h3><a href="post/{{post.id}}">{{post.title}}</a></h3>
+            <h6>Written by <a href="#">{{post.author}}</a> on {{post.date}}</h6>
+     
+            <div class="row">
+              <div class="large-6 columns">
+                {{post.introtext}}
+              </div>
+              <div class="large-6 columns">
+                <img src="/assets/img/{{post.image}}"/>
+              </div>
+            </div>
+  </article>
+          <hr/>
+  {% endfor %}
+{% endblock %}

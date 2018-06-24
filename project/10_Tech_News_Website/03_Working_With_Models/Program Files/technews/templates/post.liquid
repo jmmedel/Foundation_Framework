@@ -1,0 +1,21 @@
+{% model "posts.json" %}
+{% block content %} 
+  {% for post in model.posts %}
+    {% if post.id == mixture.route.id %}
+    <article>
+            <h3><a href="post/{{post.id}}">{{post.title}}</a></h3>
+            <h6>Written by <a href="#">{{post.author}}</a> on {{post.date}}</h6>
+     
+            <div class="row">
+              <div class="large-12 columns">
+                <img src="/assets/img/{{post.image}}"/>
+                <div class="post-body">
+                  {{post.body}}
+                </div>
+              </div>
+            </div>
+  </article>
+          <hr/>
+          {% endif %}
+  {% endfor %}
+{% endblock %}

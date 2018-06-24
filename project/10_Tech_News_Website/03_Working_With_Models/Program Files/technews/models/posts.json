@@ -1,0 +1,25 @@
+{
+	"posts":[
+		{
+			"id": "1",
+			"title":"Blog Post One",
+			"date": "06-29-2015",
+			"author": "John Doe",
+			"introtext": "This is the intro",
+			"body":"This is the longer body text",
+			"image":"img1.jpg",
+			"category":"web-development"
+		},
+		{
+			"id": "2",
+			"title":"Blog Post Two",
+			"date": "07-01-2015",
+			"author": "Brad Traversy",
+			"introtext": "This is the introtext for post 2",
+			"body":"This is the longer body text for post 2",
+			"image":"img2.jpg",
+			"category":"web-design"
+		}
+
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"blog_title":"TechBlog",
+	"slogan":"Tech news, reviews & more",
+	"categories": [
+		{
+			"id": "1",
+			"title":"Web Development",
+			"slug": "web-development"
+		},
+		{
+			"id": "2",
+			"title":"Web Design",
+			"slug": "web-design"
+		},
+		{
+			"id": "3",
+			"title":"Gadgets",
+			"slug": "gadgets"
+		}
+	]
+}
+
